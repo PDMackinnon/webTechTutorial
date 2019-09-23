@@ -1,0 +1,53 @@
+#hello {
+
+    background-color: aliceblue;
+    color:magenta;
+
+
+    position: absolute;
+    left:20px;
+    top:40px;
+
+  }
+
+  #helloContainerDiv {
+    width: 50vw;
+    height: 50vw;
+    background-color: lightblue;
+
+    position: fixed;
+    left:8em;
+    top:15vh;
+  }
+  
+  /* Let's now play with styling the World element */
+  
+
+#world {
+
+  color: green;
+  position:relative;
+  left: 150px;
+  top:100px;
+  font-size: 4em;
+  
+}
+
+
+#helloContainerDiv {
+
+    transition: transform, 1s;
+}
+
+
+#helloContainerDiv {
+    transform: rotate(15deg);
+    transform: scale(1.5);
+    transform: skew(-10deg);
+    transform: skew(10deg,10deg);
+    transform: translate(80vw, 0);
+    transform: rotate(15deg) scale(1);
+    transform: translate(80vw, 0) scale(0.3);
+
+}
+
